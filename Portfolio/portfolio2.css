@@ -1,0 +1,123 @@
+body{
+    background-color: white;
+    text-align: center;
+}
+
+main{
+    background-color: white;
+}
+
+.a{ /*Pour le premier bloc avec l'image et le texte*/
+    background-color: #C5F0EB;
+    flex-direction: row;
+    display: inline-flex;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.a > article + article{ /*Pour le texte seulement*/
+    background-color: #BEE0F7;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.b{ /*Pour le bloc "Information sur l'établissement"*/
+    background-color: #C5F0EB;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.b > article > p{ /*Pour le texte Lorem ipsum*/
+    background-color: #BEE0F7;
+    margin: 15px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+}
+
+.c{ /*Pour le bloc "Decription détaillée"*/
+    background-color: #C5F0EB;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.c > article > table{ /*Pour le tableau*/
+    background-color: #BEE0F7;
+    position: relative;
+    left: 5em;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+li{ /*Pour la liste du tableau*/
+    text-align: left;
+}
+
+.e{ /*Pour le bloc "Information sur la localisation"*/
+    background-color: #C5F0EB;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.e > article{ /*Pour le texte avec la description*/
+    background-color: #BEE0F7;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.e > article + article{ /*Pour les images*/
+    background-color: #C5F0EB;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #C5F0EB;
+}
+
+.f{ /*Pour le dernier bloc avec la carte de la Suisse*/
+    background-color: #C5F0EB;
+    display: inline-flex;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+hr{ /*Pour les lignes qui séparent les sections*/
+    border: 1px solid white;
+  }
+
+h6{ /*Permet de régler le problème indiqué par validator*/
+    position: absolute;
+    color: #C5F0EB;
+}
